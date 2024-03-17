@@ -1,3 +1,4 @@
+# John Cooper
 def encode(decoded_password):
     # Encodes the password adding 3 to each digit.
     # Uses modulo operator to make sure the result is from 0-9
