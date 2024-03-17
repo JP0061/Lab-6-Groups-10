@@ -10,7 +10,11 @@ def encode(decoded_password):
 
 
 def decode(encoded_password):
-    pass
+    decoded_password = ""
+    for digit in encoded_password:
+        decoded_digit = int(digit)+7
+        decoded_password += (str(decoded_digit))[-1]
+    return decoded_password
 
 
 def main():
